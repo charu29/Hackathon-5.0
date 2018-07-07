@@ -16,47 +16,59 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Level 1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Level - 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:visibility="visible" />
 
     <Button
         android:id="@+id/ms1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:backgroundTint="#ffffff"
-        android:text="Mission 1" />
+        android:layout_weight="0.8"
+        android:background="@drawable/arrow"
+        android:elegantTextHeight="true"
+        android:elevation="0dp"
+        android:text="Mission 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <Button
         android:id="@+id/ms2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:backgroundTint="#ffffff"
-        android:text="Mission 2" />
+        android:layout_weight="0.8"
+        android:background="@drawable/arrow"
+        android:padding="2dp"
+        android:text="Mission 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
         android:text="Level - 2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/ms3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:backgroundTint="#ffffff"
-        android:text="Mission 1" />
+        android:layout_weight=".8"
+        android:background="@drawable/arrow"
+        android:text="Mission 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <Button
         android:id="@+id/ms4"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:backgroundTint="#ffffff"
-        android:text="Mission 2" />
+        android:layout_weight=".8"
+        android:background="@drawable/arrow"
+        android:text="Mission 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
 </LinearLayout>
