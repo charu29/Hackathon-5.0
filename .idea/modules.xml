@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MilitaryTraining.iml" filepath="$PROJECT_DIR$/MilitaryTraining.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/military-training-vr-master_2.iml" filepath="$PROJECT_DIR$/military-training-vr-master_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github.iml" filepath="$PROJECT_DIR$/github.iml" />
     </modules>
   </component>
 </project>
